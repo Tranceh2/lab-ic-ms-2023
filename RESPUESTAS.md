@@ -1,15 +1,10 @@
 # Respuestas
 
-Indica tu nombre a continuación: 
+Indica tu nombre a continuación: David Carvallo
 
 Por cada etapa agrega una sección abajo y escribe las respuestas a las preguntas de cada etapa.
 
-## ETAPA 1
-
-Escribe respuestas de la etapa 1 acá
-
 ## ETAPA 2
 
-Escribe respuestas de la etapa 2 acá
-
-...
+¿Qué pasa si cambias el nombre del servicio de `postgres` a `db`? ¿Qué otros cambios tendrías que hacer?
+R: Al cambiar el nombre del servicio de postgres a db docker creara una nueva imagen de postgres con el nombre db por lo que sera necesario cambiar tambien las variables POSTGRES_USER además de la seccion depends_on en el docker-compose.yml
