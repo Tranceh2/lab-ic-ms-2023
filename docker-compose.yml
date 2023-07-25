@@ -1,6 +1,6 @@
 version: '3'
 services:
-  db:
+  postgres:
     image: postgres:15.3
     restart: always
     environment:
@@ -20,4 +20,4 @@ services:
     volumes:
       - ./sql_migrations:/flyway/sql
     depends_on:
-      - db
+      - postgres
