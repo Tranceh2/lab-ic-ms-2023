@@ -6,10 +6,8 @@ Por cada etapa agrega una sección abajo y escribe las respuestas a las pregunta
 
 ## ETAPA 1
 
-Escribe respuestas de la etapa 1 acá
+¿Cuál es la diferencia entre los archivos con el verbo `Create` con los archivos con el verbo `Add`?
+R: Create crea tablas o estructuras en la base de datos y Add añade entradas a la base de datos
 
-## ETAPA 2
-
-Escribe respuestas de la etapa 2 acá
-
-...
+¿Cómo se llama el servicio que se declara en el archivo `docker-compose.yml`?
+R: Flyway
